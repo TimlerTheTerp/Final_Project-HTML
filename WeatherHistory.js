@@ -43,7 +43,7 @@ async function GetWeather() {
     fetch(url)
     .then(response => response.json())
     .then(data => {
-        document.getElementById("WeatherToday").innerHTML =
+        document.getElementById("FindWeather").innerHTML =
         `<h2> Weather Results </h2>
         <p>In  ${data.location.name}, ${data.location.country} it is currently ${data.current.temperature} degrees at this time </p>`;
     });

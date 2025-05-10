@@ -31,4 +31,22 @@ h1 {
     text-align: left;
     background-color: blueviolet;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 360px;
+    height: 200px;
+
+    /*Transition*/
+    position: relative;
+  }
+
+  .WeatherToday {
+    text-align: left;
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    width: 350px;
+    height: 160px;
+
+    /*Transition*/
+    position: absolute;
+    left: 890px;
+    top: 120px;
   }

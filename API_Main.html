@@ -14,7 +14,7 @@
                 <li><a href="API_Main.html">Home</a></li>
                 <li><a href="WeatherHistory.html">Weather History</a></li>
                 <li><a href="WeatherMap.html">Map</a></li>
-                <li><a href="Alerts.html">Alerts</a></li>
+                <li><a href="About.html">About Us</a></li>
             </ul>
         </nav>
 
@@ -27,8 +27,12 @@
             <p>Hope you enjoy interacting with the website!</p>
         </div>
 
-        <div class = "Weathertoday">
-        <!--This would display the current weather in your area-->
+        <div class = "WeatherToday" id="WeatherToday">
+            <h2>Find your City!</h2>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <button onclick = "GetWeather()">Submit</button>
+            <!--This would display the current weather in your area-->
         </div>
 
         

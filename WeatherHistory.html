@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Weather History</title>
+        <link rel="stylesheet" href="WeatherHistory.css">
+
+        <!--API-->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+
+        <script src="WeatherHistory.js" defer></script>
+    </head>
+
+
+
+    <body>
+        <h1>Weather History</h1>
+
+
+        <nav class ="Navigate">
+            <ul>
+                <li><a href="API_Main.html">Home</a></li>
+                <li><a href="WeatherHistory.html">Weather History</a></li>
+                <li><a href="WeatherMap.html">Map</a></li>
+                <li><a href="About.html">About Us</a></li>
+            </ul>
+        </nav>
+
+        <h2>Figuring your type of Area</h2>
+
+        <div id = "FindWeather" class = Weather>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <button onclick = "GetWeather()">Submit</button>
+        </div>
+    </body>
+</html>
